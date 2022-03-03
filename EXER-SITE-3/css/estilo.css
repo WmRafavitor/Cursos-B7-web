@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1c1f29;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: arial, sans-serif;
+}
+.cadastro {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    background: #75799b;
+    border: solid 2px #000;
+    border-radius: 10px;
+}
+.cadastra form {
+    width: 500px;
+}
+form {
+    margin-right: 80px;
+}
+
+.cadastro fieldset {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 20px;   
+    padding: 20px;
+    width: 100%;
+}
+.cadastro label {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.cadastro label input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cadastro label .text {
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.options {
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.sex select {
+    margin-left: 20px;
+}
+.dados-profissionais label .time {
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.dados-profissionais select {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+form .button {
+    right: 25px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #000;
+}
+form .button:hover {
+    background: #b1b6e6;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #282935;
+}

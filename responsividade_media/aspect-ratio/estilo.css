@@ -1,0 +1,24 @@
+@media (aspect-ratio: 1/1) { /*O aspect-ratio calcula automáticament a proporção da tela*/
+    body {
+        background: #f00;
+    }
+}
+
+@media (min-aspect-ratio: 2/1) {
+    body {
+        background: #5f8;
+    }
+}
+
+@media (max-aspect-ratio: 1/2) {
+    body {
+        background: #05e;
+    }
+}
+
+/* OUTRAS FUNÇÕES aspect-ratio
+    
+    aspect-ratio: inherit;
+    aspect-ratio: initial;
+    aspect-ratio: revert;
+    aspect-ratio: unset; */

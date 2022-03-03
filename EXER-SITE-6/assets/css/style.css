@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .container-header .logo img {
+    width: 92px;
+}
+/* ----- start header ------- */
+ /* ----- start superior tolls ----- */
+.container-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.superior-tools {
+    width: 1255px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+    
+       /* ----- start itens left -----*/
+.itens-container-left {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.config-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 46px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    margin-left: 30px;
+    box-shadow: 0 1px 6px #20212428;
+}
+.config-input:hover {
+    box-shadow: -2px 4px 7px #20212428,
+    2px -1px 7px #20212428;
+}
+.config-input .input-center {
+    width: 447px;
+    height: 34px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.icons-left {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 44px;
+}
+.icons-left img {
+    width: 27px;
+    height: 23px;
+}
+.icons-left .icon-mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 44px;
+}
+.icon-mic .mic {
+    height: 24px;
+    width: 24px;
+}
+.icons-left .magnifying-glass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.icons-left .magnifying-glass svg{
+    fill: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin-bottom: 1px;
+}
+        /* ---- end itens left ----*/
+
+        /*---- start itens right*/
+
+.itens-container-right {
+    flex: 1;
+}
+.itens-container-right .settings-gear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.itens-container-right .settings-gear:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+.itens-container-right .settings-gear svg {
+    fill: #5f6368;
+    width: 24px;
+    height: 24px;
+}
+
+header .itens-menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+}
+.links-menu {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.link-email {
+    text-decoration: none;
+    color: #000000de;
+}
+.link-search-image {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000000de;
+}
+.link-email:hover,
+.link-search-image:hover {
+    text-decoration: underline;
+}
+.menu-more .icons-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    height: 40px;
+    width: 40px;
+}
+.menu-more .icons-menu:hover {
+    background: #eee;
+    border-radius: 50%;
+}
+.menu-more .icons-menu img {
+    padding: 12px;
+}
+.justify-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+
+.justify-img a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.justify-img a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.justify-img a:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #eee;
+}
+
+        /* ---- end itens right ----*/
+    /* ----- end superior tools -----*/
+
+    /* ----- start inferior tolls -----*/
+
+.inferior-tools {
+    display: flex;
+}
+
+.inferior-tools a span svg {
+    width: 16px;
+    height: 16px;
+}

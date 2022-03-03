@@ -1,0 +1,23 @@
+@keyframes exemplo {  /*@keyframes + nomeDaAnimacao: serve para fazer animações com css*/
+    0% {background: green;top:0;left:0;}/*o número e porcentagem serve para dizer o que vai*/
+    25% {background: hotpink;top:0;left:200px;}/*acontecer naquela porcentagem de tempo*/
+    50% {background: blue;top:200px;left:200px;}
+    75% {background: brown;top:200px;left:0;}
+    100% {background: green;top:0;left:0;}
+}
+body {
+    margin: 0;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    background: green;
+    position: absolute;
+    animation-name: exemplo;/*aqui que se chama a animação*/
+    animation-duration: 4s; /*aqui estipula o tempo*/
+    animation-iteration-count: 3; /*aqui quantas vezes vai se repetir, da pra usar
+    como valor "infinite" para a animação ser constante*/
+}
+
+/*há muitas outras formar de fazer é só pesquiser sobre keyframes e animaçoes em css!!!!*/

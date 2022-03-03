@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------start header ---------------*/
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background: #000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+    color:#bcaaa4;
+    margin: 10px;
+    padding: 10px;
+}
+nav a:hover {
+    color: #000;
+    background: #a1887f;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+}
+/*------ end header -----------*/
+/*------start launch section---------*/
+.sec-launch {
+   display: flex;
+}
+.featured-product {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.featured-product div a img {
+    width: 350px;
+    margin: 20px;
+}
+.featured-product .img01 {
+    width: 300px;
+    position: absolute;
+    margin: 250px;
+    filter: drop-shadow(10px 10px 2px #fff)
+            drop-shadow(-10px -10px 2px #fff)
+            drop-shadow(10px -10px 2px #fff)
+            drop-shadow(-10px 10px 2px #fff);
+}
+.featured-product div a .img02 {
+    border-right: solid #fff 15px;
+    border-bottom: solid #fff 15px;
+    margin-right: -2px;
+    margin-bottom: -2px;
+    opacity: 0.7;
+}
+.featured-product div a .img03 {
+    border-left: solid #fff 15px;
+    border-bottom: solid #fff 15px;
+    margin-left: -2px;
+    margin-bottom: -2px;
+    opacity: 0.7;
+}
+.featured-product div a .img04 {
+    border-top: solid #fff 15px;
+    border-right: solid #fff 15px;
+    margin-right: -2px;
+    margin-top: -2px;
+    opacity: 0.7;
+}
+.featured-product div a .img05 {
+    border-top: solid #fff 15px;
+    border-left: solid #fff 15px;
+    margin-left: -2px;
+    margin-top: -2px;
+    opacity: 0.7;
+}
+.featured-product div a .img02:hover,
+.featured-product div a .img03:hover,
+.featured-product div a .img04:hover,
+.featured-product div a .img05:hover {
+    opacity: 1;
+    width: 365px;
+    border: 0;
+}
+.promotion {
+    flex: 1;
+}
+.sec-launch .promotion {
+    background: #3e2723;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -220px;
+    height: 820px;
+} 
+.sec-launch .promotion h1 {
+    margin-top: 150px;
+    font-size: 80px;
+    font-family: 'Merriweather', serif;
+}
+.sec-launch .promotion p {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.sec-launch .promotion button {
+    background: #000;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+}
+.sec-launch .promotion button:hover {
+    cursor: pointer;
+    background: #795548;
+    color: #000;
+}
+.sec-launch .promotion .promotion-date {
+    font-size: 20px;
+    max-width: 350px;
+    margin-top: 40px;
+}
+/*------- end launch section -------*/
+/*------- start of more product areas -------*/
+.more-products {
+    background: #a1887f;
+}
+
+.more-products .more-text-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-products .more-text-top .left-line {
+    width: 450px;
+    height: 2px;
+    background: #000;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.more-products .more-text-top h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
+}
+.more-products .more-text-top .right-line {
+    width: 450px;
+    height: 2px;
+    background: #000;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.more-products .wristwatch-more img {
+    height: 250px;
+    margin: 40px;
+}
+.more-products .wristwatch-more img:hover {
+    height: 255px;
+    margin: 38px;
+}
+.wristwatch-div-01,
+.wristwatch-div-02,
+.wristwatch-div-03,
+.wristwatch-div-04,
+.wristwatch-div-05 {
+    display: flex;
+    align-items: center;
+}
+.wristwatch-div-02,
+.wristwatch-div-04 {
+    text-align: right;
+    margin-left: 230px;
+}
+.img-wristwatch-02,
+.img-wristwatch-04 {
+    box-shadow: 20px 20px 0 #3e2723;
+}
+.img-wristwatch-02:hover,
+.img-wristwatch-04:hover {
+    box-shadow: 20px 20px 5px #3e2723;
+}
+.img-wristwatch-01,
+.img-wristwatch-03,
+.img-wristwatch-05 {
+    box-shadow: -20px 20px 0 #3e2723;
+}
+.img-wristwatch-01:hover,
+.img-wristwatch-03:hover,
+.img-wristwatch-05:hover {
+    box-shadow: -20px 20px 5px #3e2723;
+}
+.wristwatch-div-01 .product-detail-01 {
+    width: 750px;
+}
+.wristwatch-div-01 .product-detail-01 h3,
+.wristwatch-div-02 .product-detail-02 h3,
+.wristwatch-div-03 .product-detail-03 h3,
+.wristwatch-div-04 .product-detail-04 h3,
+.wristwatch-div-05 .product-detail-05 h3 {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    margin: 20px;
+}
+.wristwatch-div-01 .product-detail-01 p,
+.wristwatch-div-02 .product-detail-02 p,
+.wristwatch-div-03 .product-detail-03 p,
+.wristwatch-div-04 .product-detail-04 p,
+.wristwatch-div-05 .product-detail-05 p {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    max-width: 650px;
+    margin: 20px;
+}
+.product-detail-01 {
+    background-image: linear-gradient(to bottom, #a1887f, #3e2723);
+}
+.product-detail-02 {
+    background-image: linear-gradient(to bottom, #a1887f, #3e2723);
+}
+.product-detail-03 {
+    background-image: linear-gradient(to bottom, #a1887f, #3e2723);
+}
+.product-detail-04 {
+    background-image: linear-gradient(to bottom, #a1887f, #3e2723);
+}
+.product-detail-05 {
+    background-image: linear-gradient(to bottom, #a1887f, #3e2723);
+}
+/*----- end more product areas ------*/
+/* -------- start footer --------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #000;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+footer .contact-information {
+    color: #bcaaa4;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+footer .logo-footer img {
+    height: 50px;
+    margin: 10px;
+}
+footer .text-top {
+    width: 200px;
+    margin: 5px 10px 5px 20px;
+    padding: 5px;
+}
+footer .address {
+    margin: 5px 10px 5px 20px;
+    padding: 5px;
+}
+footer .footer-fone {
+    margin: 5px 10px 5px 20px;
+    padding: 5px;
+}
+.social-networks {
+    color: #bcaaa4;
+}
+.social-networks h3 {
+    font-size: 25px;
+    margin: 20px;
+}
+footer .social-networks .text-social-networks {
+    color: #bcaaa4;
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+}
+footer .social-networks-icons {
+    margin-left: 20px;
+}
+footer .social-networks i {
+    color: #bcaaa4;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+footer .salesman h3 {
+    color: #bcaaa4;
+    font-size: 25px;
+    margin: 20px;
+}
+footer .salesman .contatc-salesman {
+    color: #bcaaa4;
+}
+footer .contatc-salesman form {
+    margin-left: 20px;
+}
+footer .salesman .contatc-salesman input{
+    font-size: 15px;
+    width: 220px;
+    margin: 10px;
+    padding: 5px;
+}
+footer .salesman .contatc-salesman input[type="text"]{
+    margin-left: 25px;
+}
+footer .salesman .contatc-salesman input[type="email"]{
+    margin-left: 27px;
+}
+footer .contatc-salesman button {
+    border: none;
+    background: #bcaaa4;
+    padding: 10px;
+    margin: 20px 0 0 120px;
+}
+footer .contatc-salesman button:hover {
+    background: #795548;
+    color: #bcaaa4;
+}
+.footer-copy {
+    font-size: 12px;
+    width: 80%;
+    padding: 10px;
+    color: #bcaaa4;
+    border-top: solid #bcaaa4 1px;
+    margin-top: 30px;
+}

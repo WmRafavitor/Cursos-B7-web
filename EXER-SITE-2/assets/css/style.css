@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: Arial;
+}
+:root {
+    --bg-geral: #141414;
+    --cl-font: #fff;
+}
+body {
+    background: #2f2f2f;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;   
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 990px;
+    background: var(--bg-geral);
+}
+.container h1 {
+    font-size: 50px;
+    color: var(--cl-font);
+}
+.container h3 {
+    color: var(--cl-font);
+    font-size: 18px;
+}
+.section-justify {
+    display: flex;
+    justify-content: center;
+}
+.content-center {
+    margin-top: 20px;
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    background: var(--bg-geral);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text {
+    margin-top: 50px;
+    font-size: 18px;
+    width: 180px;
+    color: var(--cl-font);
+    padding: 10px;
+}
+.img_billy p {
+    color: var(--cl-font);
+    font-size: 15px;
+}
+.description {
+    margin-top: 20px;
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-geral);
+}
+
+.description p {
+    width: 450px;
+    color: var(--cl-font);
+    padding: 20px;
+}
+.inf-child-minis {
+    display: flex;
+    justify-content: center;
+}
+.content-section {
+    display: flex;
+}
+.childhood {
+    margin: 20px;
+    background: var(--bg-geral);
+    padding: 10px;
+    width: 465px;
+}
+.title-h3 {
+    display: flex;
+    justify-content: center;
+}
+.title-h3 h3 {
+    font-size: 30px;
+    color: var(--cl-font);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.ministry {
+    margin: 20px;
+    background: var(--bg-geral);
+    width: 465px;
+}
+.style-li li {
+    color: var(--cl-font);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.div-link {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 990px;
+    background: var(--bg-geral) ;
+}
+.div-link a {
+    margin-top: 40px;
+    height: 20px;
+    text-decoration: none;
+    color: var(--cl-font);
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid var(--cl-font);
+    box-shadow: 1px 1px 2px var(--cl-font);
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULÁRIO DE CADASTRO PARA CURSO</h1>
+    <div class="cadastro">
+        <form action="cadastro/cadastro.html" method="GET">
+            <fieldset class="dados-pessoais">
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Nome: <br>
+                    <input class="text" type="text" name="nome" id="">
+                </label><br>
+                <label>
+                    Sobrenome: <br>
+                    <input class="text" type="text" name="sobrenome">
+                </label><br>
+                <label>
+                    Data de nascimento: <br>
+                    <input class="options" type="date">
+                </label><br>
+                <label>
+                    Quantidade filhos: <br>
+                    <input class="options" type="number">
+                </label><br>
+                <label>
+                    Casado: <br>
+                    <input type="radio" name="casado"> Sim <br>
+                    <input type="radio" name="casado"> Não
+                </label> <br><br>
+                <label>
+                    Nome da Mãe: <br>
+                    <input class="text" type="text">
+                </label> <br>
+                <label>
+                    Nome do Pai: <br>
+                    <input class="text" type="text">
+                </label> <br>
+                <label>
+                    Email: <br>
+                    <input class="text"  type="email" email>
+                </label><br>
+                <label class="sex">
+                    Sexo: <br>  
+                    <select class="options" name="sexo" id="">
+                        <option value=""></option>
+                        <option value="masc">Masculino</option>
+                        <option value="fem">Feminino</option>
+                    </select><br>
+                </label>
+            </fieldset>
+            <fieldset class="dados-profissionais">
+                <legend>Dados Profissionais</legend>
+                <label for="">
+                    Empresa Atual: <br>
+                    <input class="text" type="text">
+                </label> <br>
+                <label for="">
+                    Cargo: <br>
+                    <input class="text" type="text">
+                </label> <br>
+                <label for="">
+                    Data de admissão: <br>
+                    <input class="options" type="date">
+                </label> <br>
+                <label for="">
+                    <div class="time">
+                        Horário de trabalho: <br>
+                        inicio exp.: <input class="options" type="time"> final exp.: <input class="options" type="time">
+                    </div>
+                  </label> <br>
+                <label for="">
+                    Escolha a data do curso: <br>
+                    <select class="options select" name="date" id="">
+                        <option value=""></option>
+                        <option value="date-1">15/11/21</option>
+                        <option value="date-2">25/11/21</option>
+                        <option value="date-3">15/12/21</option>
+                        <option value="date-4">15/01/22</option>
+                        <option value="date-5">25/01/22</option>
+                        <option value="date-6">15/02/22</option>
+                    </select>
+                </label> <br><br>
+                <label class="radio" for="">
+                    Período:
+                    <input type="radio" name="periodo"> Manhã
+                    <input type="radio" name="periodo"> Tarde
+                    <input type="radio" name="periodo"> Noite
+                </label>
+            </fieldset>
+            <input class="button" type="button" value="Enviar Formulário">
+        </form>
+    </div>
+</body>
+</html>

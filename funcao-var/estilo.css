@@ -1,0 +1,71 @@
+
+/*Como declarar uma variável em css*/
+:root {
+    --bg-hf: #147;
+    --bg-mid: #68f;
+    --font-hf: #fff;
+    --font-sub: #6dc4df;
+    --font-mid: #003;
+
+}
+
+/*As variáveis assim como nas linguagens de progração server para receber um valor
+onde eu posso usar em qualquer lugar, assim, não vou precisar definir várias vezes
+os estilos, depois se eu precisar mudar algo, basta apenas mudar na variável, que 
+todo lugar que eu apliquei será modificado*/
+
+body{
+    margin: 0;
+}
+.header {
+    display: flex;
+    height: 100px;
+    background: var(--bg-hf);
+    
+}
+.title {
+    margin-left: 40%;
+}
+h1 {
+    color: var(--font-hf);
+    margin: 0;
+}
+h3 {
+    color: var(--font-sub);
+    margin-top: 0;
+    margin-left: 50px;
+
+}
+.mid {
+    height: 435px;
+    background: var(--bg-mid);
+}
+.mid p {
+    color: var( --font-mid);
+    font-size: 15px;
+}
+
+.mid ul {
+    color: var( --font-mid);
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.footer {
+    display: flex;
+    height: 100px;
+    background: var(--bg-hf);
+}
+
+.divfoot {
+    margin-left: 40%;
+}
+.txt1 {
+    color: var(--font-hf);
+    font-size: 20px;
+}
+.txt2 {
+    color: var(--font-sub);
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 35%;
+}

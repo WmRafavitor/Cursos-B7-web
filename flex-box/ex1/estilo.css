@@ -1,0 +1,76 @@
+.container {
+    display: flex; /*Sempre que se quer aplicar o flex-box, se usa "display: flex; em uma
+    div que esta acima para se aplicar nas divs filhas"*/
+    flex-direction: row-reverse;/*"flex-direction: row-reverse" coloca a div em linha de forma
+    reversa*/
+    background: #ddd;
+    margin: 10px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;/*"flex-direction: column" coloca a div em coluna*/
+    background: #b1b2e6;
+    margin: 10px;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    background: #a9f09b;
+    margin: 10px;
+}
+.container4 {
+    display: flex;
+    flex-direction: row;
+    background: #a9deee;
+    margin: 10px;
+}.container5 {
+    display: flex; /*por padrão o flex box mantem todos os elementos na mesma linha mesmo
+    que o tamanho deles seja maior*/
+    flex-wrap: wrap;/*o "flex-wrap: wrap" permite que caso os elementos sejam maior eles
+    quebrem para linha de baixo e se ajeitem conforme seu tamanho como mostra no último 
+    exemplo*/
+    flex-direction: row;
+    background: #bbd17f;
+    margin: 10px;
+}
+
+.container div, 
+.container2 div,
+.container3 div,
+.container5 div{
+    background: #f00;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px;
+}
+.container3 div {
+    flex:1; /*usando "flex:1" isso vai fazer com que ad divs dividam o espaço dentro
+    do container igualmente para cada uma;*/
+}
+/*--------------------------------------------------------------------------------------*/
+.div1{
+    flex: 1; 
+    background: #f00;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px;
+}
+.div2{
+    flex: 1;
+    background: #f00;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px;
+}
+.div3{
+    flex: 2;/*Usando o "flex: 2;" isso faz com que alment o espaço dessa div em relação as 
+    demais que estão com a divisão do flex com o numero menor.*/
+    background: #f00;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px;
+}
+/*---------------------------------------------------------------------------------------*/
+.container5 div {
+    width: 210px;
+}

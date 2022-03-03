@@ -1,0 +1,54 @@
+@keyframes exemplo {  
+    0% {background: green;width:150px;height:150px;}
+    25% {background: hotpink;width:160px;height:160px}
+    50% {background: blue;width:180px;height:180px}
+    75% {background: brown;width:160px;height:160px}
+    100% {background: green;width:150px;height:150px}
+}
+@keyframes botao {  
+    0% {box-shadow: 0 0 1px #000000;}
+    10% {box-shadow: 0 0 3px #000000;}
+    20% {box-shadow: 0 0 5px rgb(0, 0, 0);}
+    30% {box-shadow: 0 0 7px #000000;}
+    40% {box-shadow: 0 0 9px #000000;}
+    50% {box-shadow: 0 0 12px #000000;}
+    60% {box-shadow: 0 0 9px #000000;}
+    70% {box-shadow: 0 0 7px #000000;}
+    80% {box-shadow: 0 0 5px #000000;}
+    90% {box-shadow: 0 0 3px #000000;}
+    100% {box-shadow: 0 0 1px #000000;}
+   
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 150px;
+    width: 150px;
+    height: 150px;
+    background: green;
+    position: absolute;
+    transition:all linear;
+    
+    /*animation-name: exemplo;
+    animation-duration: 4s;
+    animation-iteration-count: 3;*/
+}
+
+button {
+    margin: 350px;
+}
+
+.container:hover {
+    animation-name: exemplo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+button:hover {
+    animation-name: botao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}

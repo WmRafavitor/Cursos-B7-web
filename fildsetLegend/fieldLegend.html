@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>fieldset and legend</title>
+</head>
+<body>
+    <form action="">
+        <fieldset> <!--#fieldset é um conjunto de campos, ele forma um retângulo 
+                        em volta de todos os elementos que estiverem dentro dele-->
+         
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro: <br>
+                <input type="text" name="name" required> <!--#required torna o campo obrigatório, 
+                                                    não permitindo o envio caso o campo esteja em branco-->
+            </label><br>
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname" minlength="4"> <!--#minlength define o comprimento que o 
+                                                                    texto dentro do input deve ter, "4" quer dizer 4 caracteres-->
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend> <!--#Legend cria um escrita na parte de 
+                                        cima do fieldset indicando o que aquele campo faz-->
+            <label>                           
+                Nome da empresa: <br>
+                <input type="text" name="companyname" maxlength="6"> <!--#define a quantidade máxima de
+                                                                    caracteres que o texto pode ter-->
+            </label><br>
+            <label>
+                Cargo na empresa: <br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+        <button>Cadastrar</button>
+    </form>
+    
+    
+</body>
+</html>

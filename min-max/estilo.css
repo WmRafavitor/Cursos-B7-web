@@ -1,0 +1,8 @@
+img {
+    width: max(50%, 300px);
+}
+/*o "min" e o "max" eles vão pegar sempre o menor ou maior valor que foi estipulado, 
+por isso sempre se deve alternar entre porcentagem e o valor, no excemplo acima o "max" vai 
+pegar sempre o maior valor da imagem, se o maior valor do tamanho da imagem for o width de
+50% ele vai pegar até a tela ir diminuindo quando 50% do valor da tela se tornar menor
+que 300px, ele passa a pegar os 300px, a mesma coisa se aplica par o "min", mas o inverso*/

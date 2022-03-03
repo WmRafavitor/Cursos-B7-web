@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background: #555;
+}
+
+/*A função "calc" é usada quando se quer calcular um espaço fixo sem altera-lo, no exemplo 
+acima se queria deixar 20px de espaço no final, então foi usada a função para usar os 100%
+da página -20px, dessa forma não importa o tamanho da tela, sempre vai ter 20px, de margin do 
+lado esquerdo na tela*/
